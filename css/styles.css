@@ -560,6 +560,9 @@ header>div>.logo {
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -590,4 +593,7 @@ header>div>.logo {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    transform: scale(0.75);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
